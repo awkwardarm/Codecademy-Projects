@@ -5,10 +5,9 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-import codecademylib3
 
 # Load the data
-transactions = pd.read_csv('transactions_modified.csv')
+transactions = pd.read_csv('transactions.csv')
 print(transactions.head())
 print(transactions.info())
 
